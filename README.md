@@ -98,7 +98,7 @@ snippet `(1 2 3) (a b c)`.
 ## Use the REPL
 
 - Querying the namespace (`ns-publics`, `ns-interns`, `ns-refers`)
-- Unmapping symbols
+- Unmapping symbols `ns-unmap`
 - `(require '[clojure.repl :refer :all])`
 - Use `source` and `doc`
 - `(require '[clojure.pprint :refer :all])`
@@ -236,15 +236,22 @@ Then play around with Hiccups `html5` function, for example pass
 `[:p "Boom!"]` to it, or `[:p {:foo "bar"} "Boom!"]`.
 
 
+*Exercise*: Write functions that render the addresses collection in a
+ table.
+
 
 ## Add routing with Compojure
 
-TODO
+- Explain the basic problem
+- Show `defroutes`, `GET` and `POST`
+- Explain parameter destructuring
+
+*Exercise*: Add routing.
 
 
 # Introduction to Typed Clojure
 
-For now, see [core.typed intro](https://github.com/friemen/cugb/typed)
+For now, see [core.typed intro](https://github.com/friemen/cugb/tree/master/typed)
 of Clojure Usergroup Bonn.
 
 
