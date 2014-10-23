@@ -1,0 +1,43 @@
+
+body {
+    font-family: helvetica,arial;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0.5em;
+}
+
+table, th, td {
+    text-align: left;
+    border: 1px solid black;
+    padding: .5em;
+} 
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #777777;
+    text-align: left;
+}
+
+form div {
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 1px solid #a0a0a0;
+    background-color: #f0f0f0;
+    width: 25em;
+}
+
+input {
+    width: auto;
+}
+
+label {
+    display: inline-block;
+    width: 6em;
+}
+
+
+
+
