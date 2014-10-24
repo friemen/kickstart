@@ -4,7 +4,7 @@ This is a list of notes supporting a half or full day Clojure
 Kickstart Workshop.  The goal is to get everyone up and running on a
 concrete example and explain basic Clojure concepts and functions.
 
-[General links and hints](https://github.com/friemen/cugb/getting-started.md)
+[General links and hints useful for getting started with Clojure](https://github.com/friemen/cugb/blob/master/getting-started.md)
 
 # Installation
 
@@ -203,7 +203,7 @@ of the values n, n-1, ..., 1.
  filter is created using partial and compose ("point-free style").
 
 
-## Languages topics intentionally omitted from the introduction
+## Language topics intentionally omitted from the introduction
 
 - Interop
 - Record/Protocol
