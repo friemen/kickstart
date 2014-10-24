@@ -2,7 +2,9 @@
 
 This is a list of notes supporting a half or full day Clojure
 Kickstart Workshop.  The goal is to get everyone up and running on a
-concrete example and explain very basic Clojure concepts and functions.
+concrete example and explain basic Clojure concepts and functions.
+
+[General links and hints](https://github.com/friemen/cugb/getting-started.md)
 
 # Installation
 
@@ -197,7 +199,8 @@ of the values n, n-1, ..., 1.
 - Juxtaposition `juxt`
 
 
-*Exercise*: TODO
+*Exercise*: Rewrite `indexof` function so that the predicate passed to
+ filter is created using partial and compose ("point-free style").
 
 
 ## Languages topics intentionally omitted from the introduction
@@ -209,7 +212,7 @@ of the values n, n-1, ..., 1.
 - Multimethod
 - Dynamic scope
 - Macros
-- Transients
+- Transients (Volatile?)
 
 # Extending helloweb
 
@@ -222,8 +225,10 @@ of the values n, n-1, ..., 1.
 - Explain Ring Spec
 	- Request and Response map
 	- Handler
-	- Middleware -> HOF
+	- Middleware
 	- Adapter
+- Show what `site` does.
+- Show example of how a tx boundary can be introduced with a HOF.
 
 ## Render HTML with Hiccup
 
@@ -246,7 +251,18 @@ Then play around with Hiccups `html5` function, for example pass
 - Show `defroutes`, `GET` and `POST`
 - Explain parameter destructuring
 
-*Exercise*: Add routing.
+*Exercise*: Add routing, link page to a stylesheet.css.
+
+
+## Add address to collection
+
+- State/Identity and atoms
+- Explain reset! vs. swap!
+
+
+*Exercise*: Add a form and another route and eventually a
+ side-effecting function that conjoins the params map to the
+ addresses.
 
 
 # Introduction to Typed Clojure
@@ -254,7 +270,3 @@ Then play around with Hiccups `html5` function, for example pass
 For now, see [core.typed intro](https://github.com/friemen/cugb/tree/master/typed)
 of Clojure Usergroup Bonn.
 
-
-# Writing macros
-
-TODO
