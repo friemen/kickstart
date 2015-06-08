@@ -1,11 +1,3 @@
-# Clojure Kickstart Curriculum
-
-This is a list of notes supporting a half or full day Clojure
-Kickstart Workshop.  The goal is to get everyone up and running on a
-concrete example and explain basic Clojure concepts and functions.
-
-[General links and hints useful for getting started with Clojure](https://github.com/friemen/cugb/blob/master/getting-started.md)
-
 # The first project
 
 Here's what you can do to make sure that your Clojure environment
