@@ -39,4 +39,5 @@
   :setup setup
   :update update-state
   :draw draw-state
+  :features [:keep-on-top]
   :middleware [m/fun-mode])
