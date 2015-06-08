@@ -48,6 +48,8 @@ Here are some other commands I use often:
   - toggle console
 
 Here are some keyboard shortcuts I use often:
+
+
 Keyboard shortcut               | Description
 --------------------------------|-------------------------------
 <kbd>Ctrl-Space</kbd> |        Show commands
