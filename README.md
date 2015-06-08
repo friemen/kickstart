@@ -16,6 +16,8 @@ See [installation instructions](installation.md)
 ## Example projects in steps
 
 [Webapp scraping currency exchange rates](moneycalc)
+
 [Quil-based app with bouncing circles](my-sketch)
+
 [Webapp with Ring/Hiccup/Compojure](helloweb)
 
