@@ -11,6 +11,8 @@ See [installation instructions](installation.md)
 
 [ClojureBridge curriculum slides](http://clojurebridge.github.io/curriculum/)
 
+[ClojureBridge cheat sheet PDF](https://github.com/ClojureBridge/curriculum/raw/gh-pages/ClojureBridgeCheatsheet-v1.pdf)
+
 [Getting started with a webapp](kickstart.md)
 
 [General links and hints useful for getting started with Clojure](https://github.com/friemen/cugb/blob/master/getting-started.md)
