@@ -27,7 +27,9 @@ of the big ones.
 You can control LightTable by commands which are made available on
 Ctrl/Cmd+Space key.
 
-To customize LightTable you can directly jump to user keymap and user behaviours. You can find both by hitting Ctrl/Cmd-Space and then typing "settings".
+To customize LightTable you can directly jump to user keymap and user
+behaviours. You can find both by hitting Ctrl/Cmd-Space and then
+typing "settings".
 
 To setup a few paredit shortcuts add the following lines to the user keymap:
 ```clojure
@@ -57,7 +59,7 @@ Keyboard shortcut               | Description
 <kbd>Ctrl-z</kbd> |            Undo
 <kbd>Ctrl-y</kbd> |            Redo
 <kbd>Ctrl-d</kbd> |            Show/hide docstring of function
-<kbd>TAB</kbd> |               Code completion, TAB chooses, ESC cancels
+<kbd>TAB</kbd> |               Code completion, TAB selects, ESC cancels
 <kbd>Ctrl-Shift-Enter</kbd> |  Evaluate complete file
 <kbd>Ctrl-Enter</kbd> |        Evaluate toplevel S-expression
 <kbd>Ctrl-Tab</kbd> |          Switch editor tab
