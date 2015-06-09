@@ -115,12 +115,12 @@
 
 (defn render-row
   "Returns a hiccup tr vector."
-  [column-descs render-actions-fns x]
+  [column-descs render-actions-fn x]
   [:tr (->> column-descs
             (map :kw)
             (map (fn [kw]
                    [:td (get x kw)])))
-   (render-row-actions x)])
+   (render-actions-fn x)])
 
 
 (defn render-table
